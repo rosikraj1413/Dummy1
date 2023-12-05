@@ -44,6 +44,50 @@ Certainly! Let's combine the information about black box testing, white box test
 - **Grey Box Testing:** Balances external user perspective with partial knowledge of internal code, applicable to integration, penetration, and database testing.
 
 ////
+When to Use Each:
+
+If the Focus is External Behavior: Use Black Box Testing when the primary concern is validating external functionalities.
+If the Focus is Internal Code: Use White Box Testing when the primary goal is to assess and improve the internal code quality.
+If a Balanced Approach is Needed: Use Grey Box Testing when both internal and external aspects are crucial for testing.
+////
+Certainly, let's consider a real-world example for Grey Box Testing in the context of a web application that handles user authentication.
+
+### **Real-World Grey Box Testing Example: Online Banking Login System**
+
+1. **Internal Code Analysis (White Box Aspect):**
+   - **Test Case 1: Password Encryption and Storage**
+     - **Action:** Examine the code responsible for password encryption and storage.
+     - **Verification:** Confirm that the application uses strong encryption algorithms and securely stores passwords in the database.
+
+   - **Test Case 2: Validate Session Management**
+     - **Action:** Analyze the code for managing user sessions.
+     - **Verification:** Ensure that sessions are securely handled, and users are logged out after a specified period of inactivity.
+
+2. **External Functionality Testing (Black Box Aspect):**
+   - **Test Case 3: Verify Successful Login**
+     - **Action:** Enter valid credentials on the login page.
+     - **Verification:** Confirm successful login and check that the user is directed to the account dashboard.
+
+   - **Test Case 4: Check Handling of Invalid Credentials**
+     - **Action:** Attempt login with incorrect username or password.
+     - **Verification:** Ensure the system displays appropriate error messages and doesn't allow unauthorized access.
+
+3. **Integration Testing (Grey Box Aspect):**
+   - **Test Case 5: Assess Integration with External Services**
+     - **Action:** Investigate how the login system integrates with external services, such as a third-party authentication provider.
+     - **Verification:** Confirm that external integrations work seamlessly, and user data is synchronized correctly.
+
+   - **Test Case 6: Evaluate Logging and Auditing**
+     - **Action:** Check how the system logs login attempts and security-related events.
+     - **Verification:** Ensure that logs capture relevant information for security auditing purposes.
+
+### **Benefits of Grey Box Testing in this Real-World Example:**
+- **Security Assessment:** Internal code analysis ensures strong security measures in password handling and session management.
+- **User-Centric Testing:** External functionality testing verifies that users can successfully log in and that error handling is user-friendly.
+- **Integration Validation:** Grey Box Testing assesses how the application interacts with external services, ensuring a seamless user experience.
+
+This real-world example showcases how Grey Box Testing can be applied to a critical system like online banking, where both internal security measures and user-facing functionalities are equally important.
+////
 manual testing: (black box testing)
 
 Certainly! Let's delve into the creation of test cases with examples. We'll use a simple scenario to illustrate the process.

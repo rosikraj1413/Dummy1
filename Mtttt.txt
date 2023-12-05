@@ -50,6 +50,8 @@ If the Focus is External Behavior: Use Black Box Testing when the primary concer
 If the Focus is Internal Code: Use White Box Testing when the primary goal is to assess and improve the internal code quality.
 If a Balanced Approach is Needed: Use Grey Box Testing when both internal and external aspects are crucial for testing.
 ////
+These test cases demonstrate a Grey Box Testing approach by combining aspects of White Box (internal code analysis) and Black Box (external functionality testing) testing to provide a thorough assessment of the login system.
+////
 Certainly, let's consider a real-world example for Grey Box Testing in the context of a web application that handles user authentication.
 
 ### **Real-World Grey Box Testing Example: Online Banking Login System**

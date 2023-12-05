@@ -1,0 +1,64 @@
+Exactly! Under manual testing, you perform various types of testing to ensure that different aspects of the software are functioning correctly. Here's a breakdown:
+
+1. **Functional Testing:**
+   - Checking if the software functions as expected, focusing on features and user interactions.
+
+2. **Regression Testing:**
+   - Verifying that new changes haven't negatively impacted existing features.
+
+3. **User Acceptance Testing (UAT):**
+   - Ensuring that the software meets the users' requirements and expectations.
+
+4. **Integration Testing:**
+   - Testing how different parts of the software work together.
+
+5. **System Testing:**
+   - Assessing the entire system to ensure it meets specified requirements.
+
+6. **Usability Testing:**
+   - Evaluating the user interface and overall user experience.
+
+7. **Exploratory Testing:**
+   - Investigating the software to find defects without predefined test cases.
+
+8. **Ad Hoc Testing:**
+   - Testing without any specific plan, often done informally to catch unexpected issues.
+
+So, yes, manual testing involves performing different types of testing based on the goals and requirements of the testing process.
+
+
+////
+
+Automation testing involves using specialized tools and scripts to perform testing activities instead of manual execution. Here's an overview:
+
+1. **Functional Automation Testing:**
+   - Writing scripts to automatically test specific functionalities of the software.
+   - Examples include using tools like Selenium for web applications or Appium for mobile apps.
+
+2. **Regression Automation Testing:**
+   - Automating the process of running regression tests to ensure that new changes don't break existing functionality.
+   - Continuous integration tools like Jenkins often integrate with automation scripts for regression testing.
+
+3. **Performance Testing Automation:**
+   - Using tools like JMeter or Gatling to automate the simulation of a large number of users to test system performance under different conditions.
+
+4. **API Testing Automation:**
+   - Automating the testing of Application Programming Interfaces (APIs) to verify their functionality, reliability, and security.
+   - Tools like Postman or RestAssured are commonly used for API automation.
+
+5. **Load Testing Automation:**
+   - Automating the process of simulating a large number of users to test how the software handles load.
+   - JMeter and Gatling can also be used for load testing.
+
+6. **Integration Testing Automation:**
+   - Automating the testing of interactions between different components or modules of the software.
+   - This is often integrated into continuous integration pipelines.
+
+7. **Cross-Browser Testing Automation:**
+   - Using tools like Selenium or BrowserStack to automate the testing of a web application across different web browsers and environments.
+
+8. **Data-Driven Testing Automation:**
+   - Creating scripts that run tests with different sets of data to ensure the software behaves correctly under various conditions.
+
+In automation testing, scripts are written to perform these tests, and the testing tools execute these scripts, report results, and identify any issues. Automation is particularly useful for repetitive tests, large-scale projects, and scenarios where quick feedback is crucial.
+

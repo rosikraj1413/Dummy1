@@ -1,0 +1,33 @@
+const { Builder, By } = require('selenium-webdriver');
+
+// Create a new instance of the WebDriver
+const driver = new Builder().forBrowser('chrome').build();
+
+async function performSearch() {
+  try {
+    // Navigate to Google
+    await driver.get('https://www.google.com');
+
+    // Find the textarea using its name attribute (assuming it's a Google search box)
+    const textarea = await driver.findElement(By.name('q'));
+
+    // Enter the YouTube URL
+    await textarea.sendKeys('youtube.com');
+
+    // Find the form containing the textarea
+    const form = await textarea.findElement(By.xpath('ancestor::form'));
+
+    // Submit the form
+    await form.submit();
+
+    // Wait for a while (you might want to use proper waits in a real scenario)
+    await driver.sleep(2000);
+  } finally {
+    // Close the browser
+    await driver.quit();
+  }
+}
+
+// Call the function to perform the search
+performSearch();
+￼Enter

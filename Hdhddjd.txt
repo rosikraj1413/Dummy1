@@ -1,20 +1,11 @@
-1. Click on Turbify and verify redirection to the Turbify landing page.
-2. Click "Back to Sign-In" and confirm redirection to the sign-in page.
+1. Click on Turbify and verify the redirection to the Turbify landing page.
+2. Click "Back to Sign-Up" and confirm the redirection to the Sign-Up page or not.
 3. Submitted without filling in the fields.
-4. Checked first name with numbers; it's not accepted.
-5. Checked last name with numbers; it's not accepted.
-6. In the email, tested with various combinations:
-   - Not working cases: rosik, 1234, rosik@.com, rosikgmail.com, rosik@gmail, rosikraj.gmail.com, rosik@@gmail.com, rosik@rosik.@com.in, rosik?rosik@rosik.com
-   - Working Cases: rosik@gmail.com, rosik@rosik.com, rosik@rosik.com.in, rosik@rosik.rosik, karnati-rosik_raj@rosik.com.in.xyz
-   (Note: Special characters other than "@" cannot be entered in the Email field.)
-7. For the password: at least 8 characters, including an uppercase letter, lowercase letter, number, and special character.
-   - Not working cases: Rosik@111 (Password has repeated characters; condition less than 3 will be accepted.)
-   - Working cases: rosik@1122, rosik@11211, Ab1!@#$%^&*()_+}{":?><
-   (Check if the eye logo shows passwords or not.)
-8. For Confirm Password:
-   - Check without entering the confirm password.
-   - Enter the wrong password.
-   - Enter the correct password.
-   - Check if the eye icon shows the password or not.
-9. Check if the links for Terms of Service and Privacy Policy redirect correctly.
-10. Click on "Create Account"; it should redirect to the verification mail page.
+4. With valid credentials, it should redirect to My Services page.
+5. Without valid credentials, it should show: "Invalid user ID or password."
+6. Click on the "Forget Password" link; it should be redirected to the Forget Password Recovery page.
+7. Provide the email address and click on "Find Account."
+8. Choose the option to receive a code via text to the mobile number on your account. Click on "Continue"; you should receive an OTP on your registered mobile number (but we are not receiving the OTP).
+9. Choose the option to send a link to the primary email address on your account. Click on "Continue"; you should receive a link on your primary email address. Open the primary email and click on "Login"; it should redirect to the login page (it should display your mail-id or allow you to set a new mail-id).
+10. Choose the option to send a link to the alternate email address on your account. Click on "Continue"; you should receive a link on your alternate email address (but not receiving the link on the alternate email address).
+11. Click on "Turbify Business Mail"; it should redirect to sign in to Turbify Mail.

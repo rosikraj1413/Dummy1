@@ -1,11 +1,20 @@
-Subject: Work from Home Request - Dec 26-29
-
-Dear Sushant,
-
-I hope this message finds you well. I am writing to request your approval to work from home from December 26th to December 29th due to a planned visit to my hometown. I want to celebrate my birthday and the New Year with my family during this time.
-
-During this period, I will maintain regular working hours, remain accessible for communication, and ensure the timely completion of tasks. Thank you for your understanding.
-
-Best regards,
-
-[Your Full Name] [Your Position]
+1. Click on Turbify and verify redirection to the Turbify landing page.
+2. Click "Back to Sign-In" and confirm redirection to the sign-in page.
+3. Submitted without filling in the fields.
+4. Checked first name with numbers; it's not accepted.
+5. Checked last name with numbers; it's not accepted.
+6. In the email, tested with various combinations:
+   - Not working cases: rosik, 1234, rosik@.com, rosikgmail.com, rosik@gmail, rosikraj.gmail.com, rosik@@gmail.com, rosik@rosik.@com.in, rosik?rosik@rosik.com
+   - Working Cases: rosik@gmail.com, rosik@rosik.com, rosik@rosik.com.in, rosik@rosik.rosik, karnati-rosik_raj@rosik.com.in.xyz
+   (Note: Special characters other than "@" cannot be entered in the Email field.)
+7. For the password: at least 8 characters, including an uppercase letter, lowercase letter, number, and special character.
+   - Not working cases: Rosik@111 (Password has repeated characters; condition less than 3 will be accepted.)
+   - Working cases: rosik@1122, rosik@11211, Ab1!@#$%^&*()_+}{":?><
+   (Check if the eye logo shows passwords or not.)
+8. For Confirm Password:
+   - Check without entering the confirm password.
+   - Enter the wrong password.
+   - Enter the correct password.
+   - Check if the eye icon shows the password or not.
+9. Check if the links for Terms of Service and Privacy Policy redirect correctly.
+10. Click on "Create Account"; it should redirect to the verification mail page.

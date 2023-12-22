@@ -1,51 +1,16 @@
-**Buying a Domain on turbify.com:**
+To purchase Web Hosting:
 
-1. Sign up at turbify.com.
-2. Navigate to domain services.
-3. Enter your desired domain name + TLD.
-4. Click on "Search" (redirects to checkout page).
-5. Choose your preferred domain and click "Add to Cart."
-6. Proceed to checkout and click "Continue."
-7. Sign in to your account.
-8. Choose a payment method and enter your details.
-9. Click "Continue" and complete the payment.
-
-**Checkout Process:**
-
-- **Checkout Purchase:**
-    - Review your order.
-    - Accept terms and conditions.
-    - Submit payment.
-
-- **Checkout Confirmation:**
-    - Note the order ID.
-    - Click on "Get Started."
-
-**Domain Purchase Benefits:**
-
-- If you purchase a domain, you receive free Business mail.
-
-**Domains Control Panels:**
-
-1. **Domain Summary and Settings:**
-    - View and manage domain settings.
-
-2. **Access Manager:**
-    - Add users with Administrator access.
-
-3. **Email:**
-    - Username: rosikraj@turbify-qa-account1.com
-    - Temporary Password: HrhWuTFKpKXjJED
-    - Login at: [mail.turbify.com/login](https://mail.turbify.com/login)
-    - After login, create a new password for access.
-
-    - App Password: etelstxmpoyljnbf
-    - Setup app password.
-
-**Domains Quick Links:**
-
-- View domain links.
-- Billing Information: Review subscriptions.
-- Plan Cancel: Choose a reason and cancel.
-- Change Plan: Switch to different service plans.
-- Add-on: Include addons (e.g., private domain registration) and make payments if desired.
+1. Set up the proxy for the QA environment.
+2. Open turbify.com in your browser.
+3. Click on "Login" and enter your valid credentials.
+4. Navigate to the Web Hosting link (redirecting to the Web Hosting page).
+5. Choose a plan; this will take you to the price cart section.
+6. Select your plan: Basic, Advance, Premier.
+7. Provide a domain name for your web hosting account and click the search button.
+8. Your entered domain name with TLD will be displayed; choose it and click "Add to Cart."
+9. Your selected domain item will be added to the cart; click on "Continue."
+10. On the "Sign up and get things rolling" page, sign up with your valid credentials and click "Continue."
+11. In the billing payment method page, provide your card details and click "Continue."
+12. On the "Review the order and submit" page, review your order details, check the "Accept the terms and conditions" box, and click "Submit Payment."
+13. On the "Order received" page, your order confirmation number will be displayed; click on "Get Started" to be redirected to the My Services page.
+14. On the "My Services" page, your order will be displayed.

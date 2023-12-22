@@ -1,11 +1,51 @@
-1. Click on Turbify and verify the redirection to the Turbify landing page.
-2. Click "Back to Sign-Up" and confirm the redirection to the Sign-Up page or not.
-3. Submitted without filling in the fields.
-4. With valid credentials, it should redirect to My Services page.
-5. Without valid credentials, it should show: "Invalid user ID or password."
-6. Click on the "Forget Password" link; it should be redirected to the Forget Password Recovery page.
-7. Provide the email address and click on "Find Account."
-8. Choose the option to receive a code via text to the mobile number on your account. Click on "Continue"; you should receive an OTP on your registered mobile number (but we are not receiving the OTP).
-9. Choose the option to send a link to the primary email address on your account. Click on "Continue"; you should receive a link on your primary email address. Open the primary email and click on "Login"; it should redirect to the login page (it should display your mail-id or allow you to set a new mail-id).
-10. Choose the option to send a link to the alternate email address on your account. Click on "Continue"; you should receive a link on your alternate email address (but not receiving the link on the alternate email address).
-11. Click on "Turbify Business Mail"; it should redirect to sign in to Turbify Mail.
+**Buying a Domain on turbify.com:**
+
+1. Sign up at turbify.com.
+2. Navigate to domain services.
+3. Enter your desired domain name + TLD.
+4. Click on "Search" (redirects to checkout page).
+5. Choose your preferred domain and click "Add to Cart."
+6. Proceed to checkout and click "Continue."
+7. Sign in to your account.
+8. Choose a payment method and enter your details.
+9. Click "Continue" and complete the payment.
+
+**Checkout Process:**
+
+- **Checkout Purchase:**
+    - Review your order.
+    - Accept terms and conditions.
+    - Submit payment.
+
+- **Checkout Confirmation:**
+    - Note the order ID.
+    - Click on "Get Started."
+
+**Domain Purchase Benefits:**
+
+- If you purchase a domain, you receive free Business mail.
+
+**Domains Control Panels:**
+
+1. **Domain Summary and Settings:**
+    - View and manage domain settings.
+
+2. **Access Manager:**
+    - Add users with Administrator access.
+
+3. **Email:**
+    - Username: rosikraj@turbify-qa-account1.com
+    - Temporary Password: HrhWuTFKpKXjJED
+    - Login at: [mail.turbify.com/login](https://mail.turbify.com/login)
+    - After login, create a new password for access.
+
+    - App Password: etelstxmpoyljnbf
+    - Setup app password.
+
+**Domains Quick Links:**
+
+- View domain links.
+- Billing Information: Review subscriptions.
+- Plan Cancel: Choose a reason and cancel.
+- Change Plan: Switch to different service plans.
+- Add-on: Include addons (e.g., private domain registration) and make payments if desired.

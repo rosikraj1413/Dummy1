@@ -1,0 +1,16 @@
+function displayRepeatedLetters(inputString) {
+  const seenLetters = {};
+  const repeatedLetters = [];
+
+  for (const letter of inputString.toLowerCase()) {
+    if (/[a-z]/.test(letter)) {
+      seenLetters[letter] ? repeatedLetters.push(letter) : (seenLetters[letter] = true);
+    }
+  }
+
+  console.log("Repeated letters: " + repeatedLetters.join(", "));
+}
+
+// Example usage
+const inputText = "rosik Raj";
+displayRepeatedLetters(inputText);

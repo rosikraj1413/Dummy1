@@ -1,0 +1,61 @@
+from datetime import datetime, timedelta
+from airflow import DAG
+from airflow.operators.python_operator import PythonOperator
+from airflow.operators.postgres_operator import PostgresOperator
+from airflow.providers.salesforce.operators.salesforce_bulk_api_operator import SalesforceBulkQueryOperator
+
+# Define default_args dictionary to set the default parameters for the DAG
+default_args = {
+    'owner': 'airflow',
+    'depends_on_past': False,
+    'start_date': datetime(2024, 1, 1),
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
+}
+
+# Define DAG
+dag = DAG(
+    'your_dag_name',
+    default_args=default_args,
+    description='Your DAG description',
+    schedule_interval='@daily',  # Adjust as needed
+)
+
+# Define a function to execute the query and store results
+def execute_query(**kwargs):
+    # Your Salesforce query
+    query = """
+    SELECT RatePlan.Id, RatePlan.Name, ... 
+    FROM RatePlan
+    WHERE RatePlan.createdDate >= '_report_date_' AND RatePlan.createdDate < '_report_next_date_' AND 
+          ((NOT Subscription.displayName__c LIKE 'yqa%' AND NOT Subscription.displayName__c LIKE 'ysbsqa%') AND 
+          (NOT Account.userId__c LIKE 'yqa%'));
+    """
+
+    # Execute the query and store the results in a file or variable
+    # Implement the Salesforce query execution based on your setup
+    # Example: SalesforceBulkQueryOperator(task_id='execute_salesforce_query', query=query, conn_id='salesforce_conn_id', ...)
+
+# Define PythonOperator to execute the query
+execute_query_task = PythonOperator(
+    task_id='execute_query',
+    python_callable=execute_query,
+    provide_context=True,
+    dag=dag,
+)
+
+# Define PostgresOperator to load the data into a PostgreSQL database
+load_to_postgres_task = PostgresOperator(
+    task_id='load_to_postgres',
+    sql='your_sql_query_to_load_data.sql',  # Create a SQL file with the necessary commands
+    postgres_conn_id='your_postgres_conn_id',
+    dag=dag,
+)
+
+# Set task dependencies
+execute_query_task >> load_to_postgres_task
+
+if __name__ == "__main__":
+    dag.cli()
